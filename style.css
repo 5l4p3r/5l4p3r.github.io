@@ -1,0 +1,36 @@
+.brand-logo {
+    height: 50px;
+    z-index: -1;
+}
+.link-text {
+    color: #00FFFF;
+}
+
+.pp {
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+.about {
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 600px)
+{
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+}
+.img-project {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.link-icon {
+    height: 50px;
+}
